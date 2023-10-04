@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccioJob</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            background-color: #FFFFFF;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-left img {
+            margin-right: 10px;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-right ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-right ul li {
+            margin-right: 15px;
+        }
+
+        .nav-right .svg {
+            margin-right: 15px;
+        }
+
+        .btn-login {
+            margin-left: 15px;
+        }
+
+
+        body {
+            margin-top: 70px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar ">
+        <div class="nav-left">
+            <img src="./Accio logo.jpg" alt="logo" style="margin-left: 100px;">
+            <a class="nav-link active accio" href="#">AccioJob</a>
+            <img src="./NSDC_Logo.jpg" alt="NSDC">
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li>
+                    <a class="nav-link courses" href="#" style="margin-right: -20px;">Courses</a>
+                </li>
+                <li>
+                    <div class="svg" style="margin-right: -20px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <g clip-path="url(#clip0_1127_910)">
+                                <path
+                                    d="M9.98115 10.379L13.6937 6.6665L14.7542 7.727L9.98115 12.5L5.20815 7.727L6.26865 6.6665L9.98115 10.379Z"
+                                    fill="#4F4F4F" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1127_910">
+                                    <rect width="18" height="18" fill="white"
+                                        transform="matrix(0 1 -1 0 18.9807 0.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </li>
+                <li>
+                    <a class="nav-link active courses" href="#" style="margin-right: -20px;">AccioJob Reviews</a>
+                </li>
+                <li>
+                    <a class="nav-link active courses" href="#" style="margin-right: -20px;">Scholarship Test</a>
+                </li>
+                <li>
+                    <a class="nav-link active courses" href="#" style="margin-right: -10px;">More</a>
+                </li>
+                <li>
+                    <div class="svg" style="margin-right: -20px;"><svg xmlns="http://www.w3.org/2000/svg" width="19"
+                            height="19" viewBox="0 0 19 19" fill="none">
+                            <g clip-path="url(#clip0_1127_921)">
+                                <path
+                                    d="M9.98115 10.379L13.6937 6.6665L14.7542 7.727L9.98115 12.5L5.20815 7.727L6.26865 6.6665L9.98115 10.379Z"
+                                    fill="#4F4F4F" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1127_921">
+                                    <rect width="18" height="18" fill="white"
+                                        transform="matrix(0 1 -1 0 18.9807 0.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-outline-primary f-s-i btn-login"
+                style="color: var(--primaryskyblue, #2F80ED); font-family: ABeeZee; font-size: 14px; font-style: italic; font-weight: 400; line-height: normal; margin-right: 110px; ">Login</button>
+        </div>
+    </nav>
+
+    <div class="harizontal-line">
+        Next batch starts in ⌛ 22 Days, Hurry! ️
+    </div>
+
+    <section class="all">
+
+        <section class="second-box d-flex justify-content-between">
+            <div class="left-box">
+                <div class="launch">
+                    <p>Launch your career with our</p>
+                    <p><span>Full Stack Developer</span> Courses </p>
+                </div>
+                <div class="curriculam">
+                    <p>Curriculum designed and taught by Alumni from IIT’s & Leading Tech Companies.</p>
+                </div>
+
+                <div class="lakh d-flex justify-content-between align-items-center">
+                    <div class="first d-flex justify-content-center align-items-center">
+                        <div class="row">
+                            <div class="col-4">
+                                <div id="round">
+                                    <img src="./Frame.png" alt="Frame">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <p style="color: var(--BLACK, #2B2F34);
+                                font-family: ABeeZee;
+                                font-size: 20px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 130%;">41 Lakhs</p>
+                                <p style="color: var(--Gray-2, #4F4F4F);
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 155%; /* 18.6px */
+                                letter-spacing: 0.12px;">Highest Salary</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second d-flex justify-content-center align-items-center">
+                        <div class="row">
+                            <div class="col-4">
+                                <div id="round">
+                                    <img src="./Group 48097592.png" alt="Frame">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <p style="color: var(--BLACK, #2B2F34);
+                                font-family: ABeeZee;
+                                font-size: 20px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 130%;">300+</p>
+                                <p style="color: var(--Gray-2, #4F4F4F);
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 155%; /* 18.6px */
+                                letter-spacing: 0.12px;">Partner Companies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third d-flex justify-content-center align-items-center">
+                        <div class="row">
+                            <div class="col-4">
+                                <div id="round">
+                                    <img src="./Ellipse 32.png" alt="Frame">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <p style="color: var(--BLACK, #2B2F34);
+                                font-family: ABeeZee;
+                                font-size: 20px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 130%;">100%</p>
+                                <p style="color: var(--Gray-2, #4F4F4F);
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 155%; /* 18.6px */
+                                letter-spacing: 0.12px;">Job Guarantee</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fourth d-flex justify-content-center align-items-center">
+                        <div class="row">
+                            <div class="col-4">
+                                <div id="round">
+                                    <img src="./Group 48097591.png" alt="Frame">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <p style="color: var(--BLACK, #2B2F34);
+                                font-family: ABeeZee;
+                                font-size: 20px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 130%;">8.3 LPA</p>
+                                <p style="color: var(--Gray-2, #4F4F4F);
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 155%; /* 18.6px */
+                                letter-spacing: 0.12px;">Average Salary</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <img src="./Arrow.png" alt="arrow" class="hide" width="70px">
+                <div class="made">
+                    Made with 💙 by an AccioJob Student
+                </div>
+            </div>
+
+
+
+
+
+            <form action="#"><div class="right-box d-flex  flex-column "
+                style="text-align: center; align-items: center; justify-content: space-between;">
+
+
+                <div style="color: var(--BLACK, #2B2F34);
+          text-align: center;
+          font-family: ABeeZee;
+          font-size: 32px;
+          font-style: italic;
+          font-weight: 400;
+          line-height: 150%; 
+          letter-spacing: -0.48px;">
+                    Start Attending Live Classes for Free!
+                </div>
+
+                <div style="color: #818D9D;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%; ">
+                    Live lectures & Assignments curated by Top Tech Proffesionals
+                </div>
+                <div class="d-flex flex-column justify-content-start">
+                    <div class="samr d-flex">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20"
+                                fill="none">
+                                <g clip-path="url(#clip0_2023_158)">
+                                    <path
+                                        d="M10.5 14.1667C13.5517 14.1667 16.2208 15.4792 17.6725 17.4376L16.1375 18.1634C14.9558 16.7634 12.8725 15.8334 10.5 15.8334C8.12751 15.8334 6.04417 16.7634 4.86251 18.1634L3.32834 17.4367C4.78001 15.4784 7.44834 14.1667 10.5 14.1667ZM10.5 1.66675C11.6051 1.66675 12.6649 2.10573 13.4463 2.88714C14.2277 3.66854 14.6667 4.72835 14.6667 5.83341V8.33341C14.6666 9.40713 14.2521 10.4394 13.5095 11.2149C12.7669 11.9904 11.7535 12.4493 10.6808 12.4959L10.5 12.5001C9.39494 12.5001 8.33513 12.0611 7.55373 11.2797C6.77233 10.4983 6.33334 9.43848 6.33334 8.33341V5.83341C6.3334 4.7597 6.74796 3.72745 7.49055 2.95193C8.23315 2.17642 9.24646 1.71751 10.3192 1.67091L10.5 1.66675ZM10.5 3.33341C9.86233 3.33338 9.24874 3.57702 8.78479 4.01448C8.32083 4.45195 8.04158 5.05017 8.00417 5.68675L8.00001 5.83341V8.33341C7.99938 8.98417 8.25252 9.60952 8.70565 10.0766C9.15877 10.5437 9.77617 10.8157 10.4266 10.8347C11.0771 10.8538 11.7094 10.6186 12.1891 10.1789C12.6689 9.73918 12.9583 9.12975 12.9958 8.48008L13 8.33341V5.83341C13 5.17037 12.7366 4.53449 12.2678 4.06565C11.7989 3.59681 11.163 3.33341 10.5 3.33341Z"
+                                        fill="#8393A9" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2023_158">
+                                        <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div style="color: var(--BLACK, #2B2F34);
+                font-family: Arial, Helvetica, sans-serif; 
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; ">
+                            Samvrant Samantaray
+                        </div>
+                    </div>
+
+                    <div class="samr1 d-flex">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20"
+                                fill="none">
+                                <g clip-path="url(#clip0_2023_163)">
+                                    <path
+                                        d="M8.305 8.90167C9.08695 10.2754 10.2246 11.4131 11.5983 12.195L12.335 11.1633C12.4535 10.9974 12.6286 10.8807 12.8273 10.8353C13.026 10.7898 13.2345 10.8188 13.4133 10.9167C14.5919 11.5608 15.8935 11.9481 17.2325 12.0533C17.4415 12.0699 17.6365 12.1646 17.7788 12.3186C17.921 12.4726 18 12.6745 18 12.8842V16.6025C18 16.8088 17.9235 17.0078 17.7853 17.161C17.6471 17.3142 17.4569 17.4106 17.2517 17.4317C16.81 17.4775 16.365 17.5 15.9167 17.5C8.78333 17.5 3 11.7167 3 4.58333C3 4.135 3.0225 3.69 3.06833 3.24833C3.08938 3.04308 3.18582 2.85293 3.33899 2.71469C3.49216 2.57646 3.69117 2.49996 3.8975 2.5H7.61583C7.82547 2.49997 8.02741 2.57896 8.1814 2.72121C8.33539 2.86346 8.43011 3.05852 8.44667 3.2675C8.55185 4.60649 8.93923 5.90807 9.58333 7.08667C9.68122 7.26547 9.71018 7.47395 9.66472 7.67266C9.61927 7.87137 9.50255 8.04654 9.33667 8.165L8.305 8.90167ZM6.20333 8.35417L7.78667 7.22333C7.33732 6.25341 7.02946 5.22403 6.8725 4.16667H4.675C4.67 4.305 4.6675 4.44417 4.6675 4.58333C4.66667 10.7967 9.70333 15.8333 15.9167 15.8333C16.0558 15.8333 16.195 15.8308 16.3333 15.825V13.6275C15.276 13.4705 14.2466 13.1627 13.2767 12.7133L12.1458 14.2967C11.6906 14.1198 11.2483 13.9109 10.8225 13.6717L10.7742 13.6442C9.13965 12.7139 7.78607 11.3604 6.85583 9.72583L6.82833 9.6775C6.58909 9.25166 6.38024 8.80945 6.20333 8.35417Z"
+                                        fill="#8393A9" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2023_163">
+                                        <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div style="color: var(--textlabelcolorsfadeddenimblue, #8393A9);
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;">
+                            Phone number
+                        </div>
+                    </div>
+                </div>
+
+                <div class="apply">
+                    Apply Now For Free <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23"
+                        viewBox="0 0 22 23" fill="none">
+                        <g clip-path="url(#clip0_2023_170)">
+                            <path
+                                d="M12.0766 11.5002L7.53906 6.96267L8.83523 5.6665L14.6689 11.5002L8.83523 17.3338L7.53906 16.0377L12.0766 11.5002Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_2023_170">
+                                <rect width="22" height="22" fill="white" transform="translate(0 0.5)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+
+                <div class="terms">
+                    By clicking ‘Apply now’, you agree to our <span>Terms & Conditions</span>
+                </div>
+
+
+
+            </div>
+            </form>
+
+        </section>
+
+        <section class="third-box">
+            <div style="width: 100%;
+            text-align: center;
+font-family: ABeeZee;
+font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.6px;
+text-transform: uppercase;
+background: var(--New, linear-gradient(277deg, #992FED 0%, #2F80ED 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 60px;">
+                learn full-stack web development
+            </div>
+
+            <div style="color: #2F80ED;
+            text-align: center;
+            font-family: ABeeZee;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 54px */
+            letter-spacing: -0.54px;">
+                OUR COURSES
+            </div>
+
+            <div class="cards d-flex justify-content-around">
+                <div>
+                    <img src="./Sapling Card.jpg" alt="" height="540" class="card1">
+                </div>
+                <div>
+                    <img src="./Pioneer Card.jpg" alt="" height="540px" class="card2">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="fourth-box">
+            <section>
+                <div class="d-flex flex-column justify-content-around align-items-center">
+                    <div style="text-align: center;
+                    font-family: ABeeZee;
+                    font-size: 16px;
+                    font-style: italic;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 1.28px;
+                    text-transform: uppercase;
+                    background: var(--New, linear-gradient(277deg, #992FED 0%, #2F80ED 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 10px;">
+                        Over 300+ hiring partners
+                    </div>
+
+                    <div style="color: var(--BLACK, #2B2F34);
+                    text-align: center;
+                    font-family: ABeeZee;
+                    font-size: 42px;
+                    font-style: italic;
+                    font-weight: 400;
+                    line-height: 150%; /* 63px */
+                    letter-spacing: -0.63px;">
+                        <p>Top Startups & MNC’s Hire</p><span style="color: var(--primaryskyblue, #2F80ED);
+                        font-family: ABeeZee;
+                        font-size: 42px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 150%;
+                        letter-spacing: -0.63px;">Software Engineer</span>
+                    </div>
+
+                    <div style="color: var(--textlabelcolorscharcoal, #595959);
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 130%; /* 23.4px */
+                    letter-spacing: 0.36px;">From AccioJob upto 41 Lakhs
+                    </div>
+                    <div></div>
+                    <div>
+                        <div style="margin-top: 40px; margin: auto;">
+                            <!-- Logo 1 -->
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4 company-logo">
+                                <img src="./Companies Logo.jpg" alt="Logo 1">
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div style="display: flex;
+                width: 276px;
+                padding: 14px 6px 14px 16px;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+                border-radius: 8px;
+    background: var(--primaryskyblue, #2F80ED);text-align: center;
+    color: var(--WHITE, #FFF);
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%; /* 27px */">
+                        Placement Report
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <article>
+        <section class="last">
+            <div style="color: var(--BLACK, #2B2F34);
+            text-align: center;
+            font-family: ABeeZee;
+            font-size: 42px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 150%; /* 63px */
+            letter-spacing: -0.63px;
+            margin-top: 60px;">
+                AccioJob Wall Of Love
+            </div>
+            <div style="color: var(--textlabelcolorscharcoal, #595959);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%; /* 23.4px */
+            letter-spacing: 0.36px;
+            text-align: center;
+            margin-bottom: 60px;">
+                Our Alumni Say it Best
+            </div>
+            <div class="container ">
+                <div class="photos row ">
+                    <!-- Alumni 1 -->
+                    <div class=" alumni first-alumni col-lg-4 col-md-6 col-sm-12">
+                        <div class="d-flex align-items-center ">
+                            <div>
+                                <img src="./Ellipse 42.jpg" alt="Alumni 1" style="margin: 10px;">
+                            </div>
+                            <div>
+                                <div style="color: #000;
+                                font-family: ABeeZee;
+                                font-size: 22px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 150%;">Virat Kohli</div>
+                                <div style="color: #676767;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 602;
+                                line-height: 150%;">SDE-II at Indian Cricket Board</div>
+                            </div>
+                            <div>
+                                <img src="./LinkedIN.jpg" alt="linkedin" style="margin-top: -40px;">
+                            </div>
+                        </div>
+                        <div style="color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        margin-top: 15px;">
+                            My Life changed when I became a part of the AccioJob family. Before that, I was not able to
+                            score any centuries. As soon as I joined Accio, I hit a century against Afghanistan.
+                        </div>
+                        <div style="margin-top: 15px; color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%; /* 18px */">
+                            Jun 14, 2022
+                        </div>
+                    </div>
+
+                    <!-- Alumni 2 -->
+                    <div class="alumni second-alumni col-lg-4 col-md-6 col-sm-12 ">
+                        <div class="d-flex align-items-center ">
+                            <div>
+                                <img src="./Ellipse 42 (1).jpg" alt="Alumni 1" style="margin: 10px;">
+                            </div>
+                            <div>
+                                <div style="color: #000;
+                                font-family: ABeeZee;
+                                font-size: 22px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 150%;">Ishan Kishan</div>
+                                <div style="color: #676767;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 602;
+                                line-height: 150%;">Intern at Indian Cricket Board</div>
+                            </div>
+                            <div>
+                                <img src="./Quora.jpg" alt="linkedin" style="margin-top: -40px;">
+                            </div>
+                        </div>
+                        <div style="color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        margin-top: 15px;">
+                            My Life changed when I became a part of the
+                            AccioJob family. Before that I was not able to
+                            score any centuries. As soon as I joined Accio,
+                            I hit a century against Afg anistan. My Life changed when I became a part of the AccioJob
+                            family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit
+                            a century against Afganistan.
+                        </div>
+                        <div style="margin-top: 15px; color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%; /* 18px */">
+                            Jun 14, 2022
+                        </div>
+                    </div>
+
+                    <!-- Alumni 3 -->
+                    <div class="alumni third-alumni col-lg-4 col-md-6 col-sm-12">
+                        <div class="d-flex align-items-center ">
+                            <div>
+                                <img src="./Ellipse 42 (2).jpg" alt="Alumni 3" style="margin: 10px;">
+                            </div>
+                            <div>
+                                <div style="color: #000;
+                                font-family: ABeeZee;
+                                font-size: 22px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 150%;">Virender Sehwag</div>
+                                <div style="color: #676767;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 602;
+                                line-height: 150%;">SDE-IV at Indian Cricket Board</div>
+                            </div>
+                            <div>
+                                <img src="./LinkedIN.jpg" alt="linkedin" style="margin-top: -40px;">
+                            </div>
+                        </div>
+                        <div style="color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        margin-top: 15px;">
+                            My Life changed when I became a part of the
+                            AccioJob family. Before that I was not able to
+                            score any centuries. As soon as I joined Accio,
+                            I hit a century against Afganistan. Then I got
+                            offers from RCB for IPL as captain again. Bas
+                            ab India World Cup Jeet jaye.
+                        </div>
+                        <div style="margin-top: 15px; color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%; /* 18px */">
+                            Jun 14, 2022
+                        </div>
+                    </div>
+
+                    <!-- Alumni 4 -->
+                    <div class="alumni fourth-alumni col-lg-4 col-md-6 col-sm-12">
+                        <div class="d-flex align-items-center ">
+                            <div>
+                                <img src="./Ellipse 42 (3).jpg" alt="Alumni 4" style="margin: 10px;">
+                            </div>
+                            <div>
+                                <div style="color: #000;
+                                font-family: ABeeZee;
+                                font-size: 22px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 150%;">Rohit Sharma</div>
+                                <div style="color: #676767;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 602;
+                                line-height: 150%;">SDE-II at Indian Cricket Board</div>
+                            </div>
+                            <div>
+                                <img src="./LinkedIN.jpg" alt="linkedin" style="margin-top: -40px;">
+                            </div>
+                        </div>
+                        <div style="color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        margin-top: 15px;">
+                            My Life changed when I became a part of the
+                            AccioJob family. Before that I was not able to
+                            score any centuries. As soon as I joined Accio,
+                            I hit a century against Afganistan. Then I got
+                            offers from RCB for IPL as captain again. Bas
+                            ab India World Cup Jeet jaye.
+                        </div>
+                        <div style="margin-top: 15px; color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%; /* 18px */">
+                            Jun 14, 2022
+                        </div>
+                    </div>
+
+                    <!-- Alumni 5 -->
+                    <div class="alumni fifth-alumni col-lg-4 col-md-6 col-sm-12">
+                        <div class="d-flex align-items-center ">
+                            <div>
+                                <img src="./Ellipse 42 (4).jpg" alt="Alumni 5" style="margin: 10px;">
+                            </div>
+                            <div>
+                                <div style="color: #000;
+                                font-family: ABeeZee;
+                                font-size: 22px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 150%;">Sarfaraz Ahmed</div>
+                                <div style="color: #676767;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 602;
+                                line-height: 150%;">WK at Pak. Cricket Board</div>
+                            </div>
+                            <div>
+                                <img src="./LinkedIN.jpg" alt="linkedin" style="margin-top: -40px;">
+                            </div>
+                        </div>
+                        <div style="color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        margin-top: 15px;">
+                            Inshallah Boys Played well. My answer also same
+                            Inshallah Boys! Well done!
+                        </div>
+                        <div style="margin-top: 15px; color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%; /* 18px */">
+                            Jun 14, 2022
+                        </div>
+                    </div>
+
+                    <!-- Alumni 6 -->
+                    <div class="alumni sixth-alumni col-lg-4 col-md-6 col-sm-12">
+                        <div class="d-flex align-items-center ">
+                            <div>
+                                <img src="./Ellipse 42 (4).jpg" alt="Alumni 6" style="margin: 10px;">
+                            </div>
+                            <div>
+                                <div style="color: #000;
+                                font-family: ABeeZee;
+                                font-size: 22px;
+                                font-style: italic;
+                                font-weight: 400;
+                                line-height: 150%;">Sachin Tendulkar</div>
+                                <div style="color: #676767;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 602;
+                                line-height: 150%;">God at Indian Cricket Board</div>
+                            </div>
+                            <div>
+                                <img src="./LinkedIN.jpg" alt="linkedin" style="margin-top: -40px;">
+                            </div>
+                        </div>
+                        <div style="color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        margin-top: 15px;">
+                            My Life changed when I became a part of the
+                            AccioJob family. Before that I was not able to
+                            score any centuries. As soon as I joined Accio,
+                            I hit a century against Afganistan.
+                        </div>
+                        <div style="margin-top: 15px; color: #676767;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%; /* 18px */">
+                            Jun 14, 2022
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    </section>
+</body>
+
+</html>

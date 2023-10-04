@@ -1,0 +1,207 @@
+.all {
+  width: 80%;
+  margin: auto;
+}
+.accio {
+  color: #012555;
+  font-family: Bai Jamjuree;
+  font-size: 21.714px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: -0.869px;
+}
+.courses {
+  color: var(--Gray-2, #4f4f4f);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: 0.16px;
+}
+.svg {
+  display: flex;
+  align-items: center;
+  margin-left: -9px;
+}
+.harizontal-line {
+  display: flex;
+  width: 1440px;
+  padding: 8px 562px;
+  align-items: flex-start;
+  gap: 10px;
+  background: var(--primaryskyblue, #2f80ed);
+  color: #fff;
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.28px;
+}
+.left-box {
+  margin-top: 40px;
+}
+.launch > p {
+  color: var(--BLACK, #2b2f34);
+  font-family: ABeeZee;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -0.75px;
+}
+span {
+  color: var(--primaryskyblue, #2f80ed);
+  font-family: ABeeZee;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 130%; /* 65px */
+  letter-spacing: -0.75px;
+}
+.curriculam {
+  width: 420px;
+  color: var(--textlabelcolorscharcoal, #595959);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
+  letter-spacing: 0.36px;
+}
+.lakh {
+  border-radius: 8px;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+
+  width: 711px;
+  height: 77px;
+  padding: 15px 20px;
+  align-items: flex-end;
+  gap: 34px;
+}
+#round {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #ffe1df;
+}
+#round {
+  margin-top: 15px;
+}
+.first p,
+.second p,
+.third p,
+.fourth p {
+  margin-bottom: 5px;
+}
+.fourth {
+  position: relative;
+}
+
+.hide {
+  position: absolute;
+  top: 335px;
+  left: 59%;
+  z-index: -5;
+}
+.right-box {
+  width: 415px;
+  height: 496px;
+  flex-shrink: 0;
+  box-shadow: 40px 4px 60px rgba(250, 14, 58, 0.08),
+    020px 2px 26px rgba(19, 39, 218, 0.2), 0 1px 55px rgba(193, 11, 11, 0.15);
+  margin-top: 40px;
+  z-index: 500;
+}
+.apply {
+  display: flex;
+  width: 320px;
+  padding: 14px 6px 14px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border-radius: 8px;
+  background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+  color: var(--WHITE, #fff);
+  font-family: ABeeZee;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%;
+}
+.terms {
+  color: #818d9d;
+  text-align: center;
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.terms > span {
+  color: var(--primaryskyblue, #2f80ed);
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.right-box {
+  width: 340px;
+}
+.samr,
+.samr1 {
+  background-color: #fafafa;
+  border: 0.3px #c8cfd8 solid;
+  margin-top: 10px;
+  box-shadow: 0px 0px 1px;
+}
+.made {
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 23px;
+  background: #fff;
+  box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.12);
+  color: #525252;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 150px;
+}
+.third-box {
+  margin-top: 30px;
+}
+.third-box {
+  background-color: rgb(229, 236, 244);
+}
+.cards {
+  width: 40%;
+  margin: auto;
+}
+.card1,
+.card2 {
+  margin: 10px;
+}
+.fourth-box {
+  margin-top: 40px;
+}
+.alumni {
+  background-color: #fdfeff;
+  border: 1px solid #ccc; /* Add a light gray border */
+  padding: 15px; /* Add some padding for spacing */
+  margin-bottom: 20px; /* Add margin to separate alumni cards */
+  min-height: 300px; /* Set a minimum height for the alumni card */
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
